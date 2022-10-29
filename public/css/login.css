@@ -1,0 +1,150 @@
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+    background-color: #029ef3;
+}
+
+
+#wp-form-login{
+    width: 264px;
+    background-color: #fdfdfd;
+    border-radius: 3px;
+    padding: 30px 20px 20px 20px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+#wp-form-reg{
+    width: 264px;
+    background-color: #fdfdfd;
+    border-radius: 3px;
+    padding: 30px 20px 20px 20px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+#wp-form-reset{
+    width: 264px;
+    background-color: #fdfdfd;
+    border-radius: 3px;
+    padding: 30px 20px 20px 20px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+#wp-form-newpass{
+    width: 264px;
+    background-color: #fdfdfd;
+    border-radius: 3px;
+    padding: 30px 20px 20px 20px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+#form-reg #username, #form-reg #password, #form-reg #fullname, #form-reg #email {
+    display: block;
+    padding: 10px 10px;
+    width: 100%;
+    margin-bottom: 9px;
+    background-color: #f7f7f7;
+    border:none;
+}
+
+#form-login #username, #form-login #password {
+    display: block;
+    padding: 10px 10px;
+    width: 100%;
+    margin-bottom: 9px;
+    background-color: #f7f7f7;
+    border:none;
+}
+
+#form-reset #email{
+    display: block;
+    padding: 10px 10px;
+    width: 100%;
+    margin-bottom: 9px;
+    background-color: #f7f7f7;
+    border:none;
+}
+#form-newpass #password{
+    display: block;
+    padding: 10px 10px;
+    width: 100%;
+    margin-bottom: 9px;
+    background-color: #f7f7f7;
+    border:none;
+}
+
+
+
+#form-login #btn_login {
+    display: block;
+    width: 100%;
+    background-color: #029ef3;
+    border:none;
+    color: #fff;
+    padding: 10px 0px;
+    margin: 15px 0px 10px;
+
+
+}
+
+#form-reg #btn_reg {
+    display: block;
+    width: 100%;
+    background-color: #029ef3;
+    border:none;
+    color: #fff;
+    padding: 10px 0px;
+    margin: 15px 0px 10px;
+
+
+}
+
+#form-reset #btn_reset {
+    display: block;
+    width: 100%;
+    background-color: #029ef3;
+    border:none;
+    color: #fff;
+    padding: 10px 0px;
+    margin: 15px 0px 10px;
+
+
+}
+
+#form-newpass #btn_newpass {
+    display: block;
+    width: 100%;
+    background-color: #029ef3;
+    border:none;
+    color: #fff;
+    padding: 10px 0px;
+    margin: 15px 0px 10px;
+
+
+}
+
+#lost_pass{
+    color: #67a0b7;
+    text-decoration: underline;
+}
+
+#login{
+    color: #67a0b7;
+    text-decoration: underline;
+}
+
+#reg{
+    color: #67a0b7;
+    text-decoration: underline;
+}
+#title{
+    font-size: 17px;
+    padding: 0px 0px 20px;
+}
+
+
+

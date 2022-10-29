@@ -1,0 +1,76 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+RewriteEngine On
+
+RewriteRule "^trang-chu" "?mod=home"
+RewriteRule "^san-pham" "?mod=home"
+RewriteRule "^blog/blog-home" "?mod=blog&action=blog"
+
+RewriteRule "^gioi-thieu" "?mod=about"
+RewriteRule "^thanh-toan" "?mod=checkout"
+
+RewriteRule "^gio-hang/gio-hang-cua-ban" "?mod=cart&action=show"
+RewriteRule "^don-hang-cua-ban-da-xu-ly-thanh-cong" "?mod=success"
+RewriteRule "^kiem-tra/kiem-tra-don-hang" "?mod=checkout&action=checkout_cus"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RewriteRule "^danh-muc/dien-thoai/([0-9]+)$" "product/list/$1"
+
+RewriteRule "^danh-muc/lap-top/([0-9]+)$" "?mod=product&action=lap&cat_id=$1"
+
+RewriteRule "^danh-muc/dong-ho/([0-9]+)$" "?mod=product&action=watch&cat_id=$1"
+
+RewriteRule "^danh-muc/tai-nghe/([0-9]+)$" "?mod=product&action=watch&cat_id=$1"
+
+
+
+# ?mod=product&action=detailPhone&cat_title=Iphone&id=1
+
+
+RewriteRule "^danh-muc/dien-thoai/iphone/id=([0-9]+)$" "?mod=product&action=detailPhone&cat_title=Iphone&id=$1"
+
+RewriteRule "^danh-muc/dien-thoai/sam-sung/id=([0-9]+)$" "?mod=product&action=detailPhone&cat_title=SamSung&id=$1"
+
+RewriteRule "^danh-muc/lap/lap-top/id=([0-9]+)$" "?mod=product&action=detailLap&cat_title=Laptop&id=$1"
+
+RewriteRule "^danh-muc/tai-nghe/airpod/id=([0-9]+)$" "?mod=product&action=detailHeadphone&cat_title=Airpods&id=$1"
+
+RewriteRule "^danh-muc/dong-ho/apple-watch/id=([0-9]+)$" "?mod=product&action=detailWatch&cat_title=AppleWatch&id=$1"
+
+
+
+
+
+

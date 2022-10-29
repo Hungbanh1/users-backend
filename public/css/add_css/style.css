@@ -1,0 +1,274 @@
+
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+
+
+li{
+    list-style-type: none;
+
+}
+.desc li:nth-child(odd){
+    background-color: #f5f5f5;
+}
+
+.desc li:nth-child(even){
+    background-color: #fff;
+}
+.desc li{
+    padding: 10px;
+    display: flex;
+    margin-bottom: -16px;
+}
+.charger{
+    padding: 10px 10px 0 10px!important;
+    display: flex;
+    margin-bottom: 0!important;
+}
+.lileft{
+    width: 170px;
+}
+.liright{
+    padding: 0 5px 0 25px !important;
+}
+
+.desc{
+    display: block;
+}
+
+li .product-name{
+    display: block!important;
+    text-align: center;
+    color: #222!important;
+    font-family: 'Roboto Medium'!important;
+    margin: 15px 0px 5px 0px!important;
+    line-height: normal!important;
+}
+
+li .price{
+    text-align: center;
+    margin-bottom: 15px;
+    /* display: inline-flex!important; */
+}
+li .price .old{
+    display: inline-block!important;
+    font-family: 'Roboto Light'!important;
+    color: #999!important;
+    text-decoration: line-through!important;
+}
+li .price .new{
+    display: inline-block!important;
+    font-family: 'Roboto Medium'!important;
+    color: #f12a43!important;
+    font-size: 15px!important;
+    font-weight: normal!important;
+    margin-right: 5px!important;
+}
+ 
+/* #feature-product-wp .list-item li .action a, #list-product-wp .list-item li .action a, #same-category-wp .list-item li .action a {
+    display: block;
+    padding: 2px 10px!important;
+    font-size: 12px;
+} */
+#feature-product-wp .list-item li, #same-category-wp .list-item li {
+    background: #fff;
+    padding: 0px 0px 30px 0px!important;
+    margin: 0% 2%;
+}
+li .action .add-cart{
+    border: 1px solid #333!important;
+    color: #333!important;
+    /* margin-left: 8px; */
+ 
+}
+
+.ml-left{
+    margin-left: 8px!important;
+}
+.mr-right{
+    margin-right: 10px!important;
+}
+
+
+#add-cart{
+    padding: 2px!important;
+}
+li .action .buy-now{
+    color: #da1818;
+    border: 1px solid #da1818;
+    /* margin-right: 10px; */
+}
+
+li .action .add-cart:hover {
+    background: #333;
+    color: #fff!important;
+}
+
+li .action .buy-now:hover {
+    background: #da1818;
+    color: #fff!important;
+}
+.btn-buynow{
+    color: #da1818!important;
+    border: 1px solid #da1818;
+    margin-right: 10px;
+    text-align: center;
+}
+.btn-buynow:hover{
+    background-color: #da1818;
+    color: #fff!important;
+}
+
+
+
+
+/* ===========================Container===================== */
+ img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.img_thumb{
+    padding: 14px;
+}
+
+#item{
+    padding: 0px!important;
+}
+#item li{
+    padding-bottom: 30px!important;
+    background-color: #fff!important;
+    margin-bottom: 15px!important; 
+    margin-right: 12px!important;   
+    float: left;
+    width: 24.25%;
+    margin-right: 1%;
+  
+    background: #fff;
+    padding: 10px 10px 30px 10px;
+    border: 1px solid transparent; 
+} 
+
+#item li:hover{
+    color: #666;
+    border: 1px solid #ddd;
+}
+
+
+/* ////CArt  */
+ #cart-wp #num, #cart-respon-wp #num {
+    top: 5px!important;
+    right: -12px!important;
+}
+#cart-wp i, #cart-respon-wp i{
+    color: #fff!important;
+}
+#selling-wp .section-detail .list-item li {
+    margin-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #ddd;
+} 
+
+/* / SIDEBAR/ */
+
+.product-name-sidebar{
+    display: block!important;
+    color: #222!important;
+    font-family: 'Roboto Medium'!important;
+    margin: 15px 0px 5px 0px!important;
+    line-height: normal!important;
+}
+#price_sidebar{
+    text-align: center;
+    margin-bottom: 15px;
+    display: inline-flex!important;
+
+} 
+
+
+/* /// VIEW MORe  */
+
+.btn-show {
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #494545af;
+    width: 100%;
+    color: #ffffff;
+    transition: linear .3s;
+}
+.btn-show:hover{
+    background:rgb(69 128 216);
+    transition: 1s ease-in-out;
+    color: #fff;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.view-more{
+    max-height: 239px;
+    overflow: hidden;
+}
+
+.bold p{
+    color: #666;
+    font-weight: 900;
+}
+.bold h5{
+    font-weight: 800;
+    
+}
+
+
+
+
+
+
+/* // PAGE ///////////////// */
+
+/* / Phan trang / */
+
+/* ul.pagging{
+    float: right;
+    margin-top: 23px;
+}
+
+ul.pagging li {
+    float: left;
+    padding: 0px 2px;
+}
+ul.pagging li a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    border: 1px solid #dedede;
+}
+ul{
+    list-style: none;
+}
+
+ul.pagging li.active a{
+    border: 1px solid #f00;
+    color: #f00;
+
+}
+
+a
+
+/* //list-item  */
+
+.list-item {
+    padding-left: 0!important;
+    margin-bottom: 0;
+}
+
+
+#main-content-wp{
+    padding-top: 30px;
+    
+}
